@@ -1,0 +1,7 @@
+.mailto-link {
+  text-decoration: none;
+  cursor: pointer;
+}
+.mailto-link:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=mailto.css.map */

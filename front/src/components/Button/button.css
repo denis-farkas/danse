@@ -1,0 +1,77 @@
+button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+button:before {
+  position: absolute;
+  pointer-events: none;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  content: "";
+  transition: 0.7s cubic-bezier(0, 0.8, 0.26, 0.99);
+  z-index: -1;
+}
+button:after {
+  position: absolute;
+  pointer-events: none;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  content: "";
+  box-shadow: 0 4px 0 0 rgba(0, 0, 0, 0.15);
+  transition: 0.7s cubic-bezier(0, 0.8, 0.26, 0.99);
+}
+button:hover:before {
+  box-shadow: 0 -4px rgba(0, 0, 0, 0.5) inset, 0 4px rgba(255, 255, 255, 0.2) inset, -4px 0 rgba(255, 255, 255, 0.2) inset, 4px 0 rgba(0, 0, 0, 0.5) inset;
+}
+button:hover:after {
+  box-shadow: 0 4px 0 0 rgba(0, 0, 0, 0.15);
+}
+button:active {
+  transform: translateY(4px);
+}
+button:active:after {
+  box-shadow: 0 0px 0 0 rgba(0, 0, 0, 0.15);
+}
+
+.submitButton {
+  margin: 0 auto;
+  position: relative;
+  display: inline-block;
+  background: linear-gradient(to bottom, #1b1c3f, #4a4e91);
+  color: white;
+  font-size: 18px;
+  border: none;
+  margin: 5rem;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  animation: button-shimmer 2s infinite;
+  transition: all 0.3s ease-in-out;
+}
+.submitButton:hover {
+  background: linear-gradient(to bottom, #2c2f63, #5b67b7);
+  animation: button-particles 1s ease-in-out infinite;
+  transform: translateY(-2px);
+}
+.submitButton:active {
+  transform: scale(0.95);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+@media only screen and (min-width: 980px) {
+  .submitButton {
+    font-size: 25px;
+    margin: 6rem;
+  }
+}/*# sourceMappingURL=button.css.map */

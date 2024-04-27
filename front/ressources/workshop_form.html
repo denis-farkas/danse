@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Instant Danse</title>
+    <meta name="description" content="">
+    <link rel="stylesheet" href="css/normalize.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <!--<script src="https://kit.fontawesome.com/a75ddc61c5.js" crossorigin="anonymous"></script>-->
+</head>
+<body>
+    <header>
+        <h1>Instant Danse</h1>
+        <nav>
+            <a href="#ateliers">Ateliers</a>
+            <a href="#mes-inscriptions">Mes Inscriptions</a>
+            <a href="#messages">Messages</a>
+            <a href="#mon-compte">Mon Compte</a>
+            <a href="#connexion">Connexion</a>
+        </nav>
+    </header>
+
+    <main class="container">
+       <section>
+        <form action="#" method="post">
+            <h2>Formulaire de création d'atelier de danse</h2>
+        
+            <label for="nom">Nom de l'Organisateur/Instructeur</label>
+            <input type="text" id="nom" name="nom" placeholder="nom">
+        
+            <label for="prenom">Prénom de l'Organisateur/Instructeur</label>
+            <input type="text" id="prenom" name="prenom" placeholder="prénom" required>
+        
+            <label for="email">Adresse e-mail</label>
+            <input type="email" id="email" name="email" placeholder="email">
+        
+            <label for="telephone">Numéro de téléphone</label>
+            <input type="tel" id="telephone" name="telephone" placeholder="téléphone" required>
+        
+            <label for="titre">Titre de l'atelier</label>
+            <input type="text" id="titre" name="titre" placeholder="ex: Atelier de danse contemporaine..." required>
+        
+            <label for="description">Description de l'atelier</label>
+            <textarea id="description" name="description" rows="4" placeholder="décrivez brièvement ce qui vous paraît pertinent" required></textarea>
+        
+            <label for="date">Date</label>
+            <input type="date" id="date" name="date" placeholder="indiquez la date pour l'atelier" required>
+        
+            <label for="heure">Heure</label>
+            <input type="time" id="heure" name="heure" placeholder="indiquez l'heure pour l'atelier" required>
+        
+            <label for="duree">Durée</label>
+            <input type="text" id="duree" name="duree" placeholder="indiquez la durée de l'atelier" required>
+        
+            <label for="lieu">Lieu</label>
+            <input type="text" id="lieu" name="lieu" placeholder="préciser si le cours se déroulera dans un studio, une salle des fêtes, etc..." required>
+        
+            <label for="frais">Frais de participation (le cas échéant)</label>
+            <input type="text" id="frais" name="frais" placeholder="si l'atelier est payant, indiquez le montant">
+        
+            <label for="niveau">Niveau de compétences requis</label>
+            <input type="text" id="niveau" name="niveau" placeholder="débutant, intermédiaire, avancé" required>
+
+            <label for="nombre_personnes">Nombre de personnes</label>
+            <input type="number" id="nombre_personnes" name="nombre_personnes" placeholder="limité le nombre de participants si nécessaire" required>
+        
+            <button type="submit">Envoyer</button>
+          </form>
+       </section>
+    </main>
+    <footer>
+        <p>Contactez-nous : <a href="mailto:instantdanse@hotmail.fr">instantdanse@hotmail.fr</a> | Téléphone : <a href="tel:+33 57 68 95 02">05 57 68 95 02</a></p>
+        <p><a href="/politique-confidentialite">Politique de confidentialité</a> | <a href="/conditions-utilisation">Conditions d'utilisation</a></p>
+        <p>&copy; 2024 Instant Danse. Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>

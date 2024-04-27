@@ -1,0 +1,58 @@
+:root {
+    //font-family
+    --font-family-default: "Open Sans", sans-serif;
+    --font-family: 'Economica', sans-serif;
+
+    // Colors
+    --bg-light-beige: #EFDECD;
+    --bg-white: #fff;
+    --bg-blue: #596BA8;
+    --grey-brown: #7d7474;
+    --text-color-default: #333;
+    --text-color: #eeedf0;
+    --text-shadow: 0 2px 0 rgb(0 0 0 / 25%);
+    --icon-color: #eeedf0;
+
+    // Fonts
+    --font-size-tiny: calc(0.8rem + 0.6vmin);
+    --font-size-small: calc(1rem + 0.6vmin);
+    --font-size-medium: calc(1.2rem + 0.6vmin);
+    --font-size-large: calc(1.4rem + 0.6vmin);
+    --font-size-big: calc(1.8rem + 0.6vmin);
+    --font-size-huge: calc(2.4rem + 0.6vmin);
+
+    --font-weight-thin: 100;
+    --font-weight-extra-light: 200;
+    --font-weight-light: 300;
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-semi-bold: 600;
+    --font-weight-bold: 700;
+    --font-weight-extra-bold: 800;
+    --font-weight-black: 900;
+
+    // Radius
+    --small-radius: 4px;
+    --basic-radius: 10px;
+
+    /* Margin */
+    --margin-xxs: 0.25rem;
+    --margin-xs: 0.8rem;
+    --margin-s: 1.6rem;
+    --margin-m: 2.4rem;
+    --margin-l: 3.2rem;
+    --margin-xl: 4.8rem;
+    --margin-xxl: 6.4rem;
+
+    // Padding
+    --padding-xxs: 0.25rem;
+    --padding-xs: 0.8rem;
+    --padding-s: 1.6rem;
+    --padding-m: 2.4rem;
+    --padding-l: 3.2rem;
+    --padding-xl: 4.8rem;
+    --padding-xxl: 6.4rem;
+
+
+
+}

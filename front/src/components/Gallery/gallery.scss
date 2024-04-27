@@ -1,0 +1,32 @@
+.dancers {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    margin-top: 20px;
+
+    source,
+    img {
+        width: 33.33%;
+        height: auto;
+    }
+}
+
+.slide-container {
+    display: none;
+}
+
+
+@media only screen and (max-width: 780px) {
+    .dancers {
+        display: none;
+    }
+
+    .slide-container {
+        display: block;
+        height: auto;
+    }
+
+    .slide-container .divStyle {
+        height: auto;
+    }
+}

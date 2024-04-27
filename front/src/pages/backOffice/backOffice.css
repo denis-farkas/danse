@@ -1,0 +1,12 @@
+.jumbotron {
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.back {
+  margin: 30px 0;
+}/*# sourceMappingURL=backOffice.css.map */
